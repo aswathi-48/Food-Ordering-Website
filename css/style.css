@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 15px;
+    height: 50px;
+
+    background-image: url("../images/nav_back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 9px;
+    left: 69px;
+    border-radius: 50px;
+}
+
+nav h2 {
+    position: absolute;
+    top: 13px;
+    left: 140px;
+    color: rgb(250, 246, 246);
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+nav h2 span{
+    color: #c3160d;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+nav button {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    color: aliceblue;
+
+    background-color: rgb(235, 169, 36);
+    border: none;
+    border-radius: 7px;
+
+    font-size: 18px;
+    font-family: "Permanent Marker", cursive;
+}
+
+nav button:hover {
+    background-color: #fd7f4d;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #f7ef00;
+    cursor: pointer;
+}
+ul .cartlogo{
+    width: 30px;
+    height: 2pc;
+    position:relative;
+    right: 30px; 
+    margin-right: -60px;
+    margin-left: -5px;
+}
+ul .pizza{
+    position:absolute;
+    right:560px;
+    width:30px;
+}
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media screen and (max-width: 1000px) {
+
+    nav {
+        height: auto;
+        min-height: 80px;
+    }
+
+    nav .logo {
+        left: 25px;
+    }
+
+    nav h2 {
+        left: 95px;
+        font-size: 30px;
+    }
+
+    nav ul {
+        gap: 20px;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 120px;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+
+    nav button {
+        right: 20px;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    ul .cartlogo {
+        width: 28px;
+        height: 28px;
+        margin-right: -25px;
+        margin-left: -5px;
+    }
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        height: auto;
+        min-height: 150px;
+
+        padding: 10px;
+    }
+
+    /* Logo */
+    nav .logo {
+        width: 50px;
+        height: 50px;
+
+        top: 10px;
+        left: 15px;
+    }
+
+    /* Website name */
+    nav h2 {
+        top: 12px;
+        left: 75px;
+
+        font-size: 27px;
+    }
+
+    /* Navigation links */
+    nav ul {
+        display: flex;
+
+        flex-wrap: wrap;
+
+        gap: 15px;
+
+        padding: 70px 10px 10px 10px;
+
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    /* Button */
+    nav button {
+        width: 90px;
+        height: 32px;
+
+        top: 18px;
+        right: 15px;
+
+        font-size: 14px;
+    }
+
+    /* Cart */
+    ul .cartlogo {
+        width: 27px;
+        height: 27px;
+
+        margin-left: -10px;
+        margin-right: 0;
+
+        right: 0;
+    }
+}
+
+
+/* ========================= */
+/* SMALL MOBILE */
+/* ========================= */
+
+@media screen and (max-width: 450px) {
+
+    nav {
+        min-height: 100px;
+    }
+
+    nav .logo {
+        width: 45px;
+        height: 45px;
+
+        left: 10px;
+        top: 10px;
+    }
+
+    nav h2 {
+        left: 65px;
+        top: 13px;
+
+        font-size: 23px;
+    }
+
+    nav button {
+        width: 75px;
+        height: 30px;
+
+        right: 10px;
+        top: 17px;
+
+        font-size: 12px;
+    }
+
+    nav ul {
+        gap: 12px;
+
+        padding-top: 65px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    ul .cartlogo {
+        width: 25px;
+        height: 25px;
+
+        margin-left: -8px;
+    }
+}
