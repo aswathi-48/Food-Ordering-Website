@@ -1,45 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Ordering Website</title>
-
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer">
-
-    <link rel="stylesheet" href="css/style.css">
 
     <title>Food Ordering</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+          integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700;900&display=swap"
+          rel="stylesheet">
 </head>
+
 <body>
 
     <nav class="navbar">
 
         <!-- Logo -->
         <div class="logo">
-        🍜 OISHII
+            🍜 OISHII
         </div>
 
-        
+        <!-- Desktop Navigation -->
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Orders</a></li>
         </ul>
 
-       
+        <!-- Desktop Right -->
         <div class="nav-right">
 
             <!-- Cart -->
@@ -48,93 +46,158 @@
                 <span class="cart-count">0</span>
             </a>
 
-            
+            <!-- Order Button -->
             <a href="#" class="order-btn">Order Now</a>
 
         </div>
+
+        <!-- Mobile Menu -->
         <div class="bar">
 
-<section class="hero">
+            <input type="checkbox" id="menu-toggle">
 
-    <!-- Left Content -->
-    <div class="hero-content">
+            <label for="menu-toggle">☰</label>
 
-        <h1>Good Food.<br>Good Mood.</h1>
+            <div class="mobile-menu">
 
-        <p>
-            Order your favourite meals and enjoy delicious food
-            delivered straight to your door.
-        </p>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Orders</a>
+                <a href="#">🛒 Cart</a>
 
-        <div class="hero-buttons">
-            <a href="#" class="primary-btn">Order Now</a>
-            <a href="#" class="secondary-btn">Explore Menu</a>
+                <a href="#" class="mobile-order">
+                    Order Now
+                </a>
+
+            </div>
+
         </div>
 
+    </nav>
+
+
+    <!-- Hero Section -->
     <section class="hero">
 
-        <div class="hero-content">
-            <span class="hero-tag">🍽️ Deliciousness at your doorstep</span>
-            <h1>Good Food.<br><span>Good Mood</span></h1>
+        <img src="images/hero.png" alt="">
 
-            <p>Order your favourite meals and enjoy delicious food delivered 
-                straight to your door.</p>
+        <h2>Hungry Now? We’ve Got You.</h2>
 
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">Order Now</a>
-                <a href="#" class="btn btn-secondary">Explore Menu</a>
-            </div>
+        <h1>
+            Choose your favorites. Order with ease. Enjoy every bite.
+        </h1>
 
-        </div>
+        <button type="button" class="order">
+            Order now
+        </button>
 
-        <div class="hero-image">
-            <div class="image-circle">
-                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Delicious food bowl">
-            </div>
-        </div>
+        <button type="button" class="explore">
+            Explore Menu
+        </button>
+
     </section>
 
-</body>
-</html>
+    <!-- Food Categories Section -->
 
-    
+<section class="categories">
 
+    <div class="section-heading">
+        <span>Explore Our Menu</span>
+        <h2>What are you craving?</h2>
+        <p>
+            Choose from our delicious selection of food categories.
+        </p>
     </div>
 
-    <!-- Right Image -->
-    <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=90" alt="Delicious Food">
+
+    <div class="category-grid">
+
+        <!-- Pizza -->
+        <div class="category-card">
+            <div class="category-icon">
+                🍕
+            </div>
+
+            <h3>Pizza</h3>
+
+            <p>
+                Cheesy and delicious pizzas
+            </p>
+        </div>
+
+
+        <!-- Burger -->
+        <div class="category-card">
+            <div class="category-icon">
+                🍔
+            </div>
+
+            <h3>Burger</h3>
+
+            <p>
+                Juicy burgers packed with flavour
+            </p>
+        </div>
+
+
+        <!-- Biriyani -->
+        <div class="category-card">
+            <div class="category-icon">
+                🍛
+            </div>
+
+            <h3>Biriyani</h3>
+
+            <p>
+                Aromatic and flavorful biriyani
+            </p>
+        </div>
+
+
+        <!-- Chicken -->
+        <div class="category-card">
+            <div class="category-icon">
+                🍗
+            </div>
+
+            <h3>Chicken</h3>
+
+            <p>
+                Delicious crispy chicken dishes
+            </p>
+        </div>
+
+
+        <!-- Desserts -->
+        <div class="category-card">
+            <div class="category-icon">
+                🍰
+            </div>
+
+            <h3>Desserts</h3>
+
+            <p>
+                Sweet treats for every mood
+            </p>
+        </div>
+
+
+        <!-- Drinks -->
+        <div class="category-card">
+            <div class="category-icon">
+                🥤
+            </div>
+
+            <h3>Drinks</h3>
+
+            <p>
+                Refreshing drinks and beverages
+            </p>
+        </div>
+
     </div>
 
 </section>
 
-
-
-    <input type="checkbox" id="menu-toggle">
-
-    <label for="menu-toggle">☰</label>
-
-    <div class="mobile-menu">
-
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">Orders</a>
-        <a href="#">🛒 Cart</a>
-
-        <a href="#" class="mobile-order">
-            Order Now
-        </a>
-
-    </div>
-
-</div>
-    </nav>
-   <div class="hero">
-    <img src="images\hero.png" alt="">
-    <h2>Hungry Now? We’ve Got You.</h2>
-    <h1>Choose your favorites. Order with ease. Enjoy every bite.</h1>
-    <button href="orders.html" class="order">Order now</button>
-    <button href="menu.html"  class="explore">Explore Menu</button>
-   </div>
 </body>
 </html>
