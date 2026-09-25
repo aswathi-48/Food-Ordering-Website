@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie</title>
-    
+
+    <title>Food Ordering</title>
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+          integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700;900&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
@@ -23,17 +27,17 @@
 
         <!-- Logo -->
         <div class="logo">
-        🍜 OISHII
+            🍜 OISHII
         </div>
 
-        
+        <!-- Desktop Navigation -->
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Orders</a></li>
         </ul>
 
-       
+        <!-- Desktop Right -->
         <div class="nav-right">
 
             <!-- Cart -->
@@ -42,259 +46,158 @@
                 <span class="cart-count">0</span>
             </a>
 
-            
+            <!-- Order Button -->
             <a href="#" class="order-btn">Order Now</a>
 
         </div>
+
+        <!-- Mobile Menu -->
         <div class="bar">
 
-<section class="hero">
+            <input type="checkbox" id="menu-toggle">
 
-    <!-- Left Content -->
-    <div class="hero-content">
+            <label for="menu-toggle">☰</label>
 
-        <h1>Good Food.<br>Good Mood.</h1>
+            <div class="mobile-menu">
 
-        <p>
-            Order your favourite meals and enjoy delicious food
-            delivered straight to your door.
-        </p>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Orders</a>
+                <a href="#">🛒 Cart</a>
 
-        <div class="hero-buttons">
-            <a href="#" class="primary-btn">Order Now</a>
-            <a href="#" class="secondary-btn">Explore Menu</a>
-        </div>
-
-    <section class="hero">
-
-        <div class="hero-content">
-            <span class="hero-tag">🍽️ Deliciousness at your doorstep</span>
-            <h1>Good Food.<br><span>Good Mood</span></h1>
-
-            <p>Order your favourite meals and enjoy delicious food delivered 
-                straight to your door.</p>
-
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">Order Now</a>
-                <a href="#" class="btn btn-secondary">Explore Menu</a>
-            </div>
-
-        </div>
-
-        <div class="hero-image">
-            <div class="image-circle">
-                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Delicious food bowl">
-            </div>
-        </div>
-    </section>
-
-</body>
-</html>
-
-
-
-
-<!-- Hero Section -->
-
-<section class="food-hero">
-
-    <div class="food-hero-content">
-
-        <!-- Hero Text -->
-        <div class="food-hero-text">
-
-            <p class="food-small-text">
-                WELCOME TO OISHII
-            </p>
-
-            <h1>
-                Delicious Food
-                <span>Delivered To You</span>
-            </h1>
-
-            <p class="food-description">
-                Enjoy delicious meals made with fresh ingredients
-                and delivered straight to your doorstep.
-            </p>
-
-            <!-- Buttons -->
-            <div class="food-buttons">
-
-                <a href="#" class="food-order-btn">
+                <a href="#" class="mobile-order">
                     Order Now
                 </a>
 
-                <a href="#" class="food-menu-btn">
-                    View Menu
-                </a>
-
             </div>
 
         </div>
 
-     <!-- Delivery Information -->
-    <div class="delivery-info">
-        <div>
-            <span>🚚</span>
-            <p>30 Min Delivery</p>
-        </div>
-
-        <div>
-            <span>🍴</span>
-            <p>Fresh Ingredients</p>
-        </div>
-    </div>
-
-        
-
-    </div>
-
-</section>
+    </nav>
 
 
-    <section class="categories">
-        <h1>Explore Our Categories</h1>
-        <p class="subtitle">Choose your favorite food</p>
+    <!-- Hero Section -->
+    <section class="hero">
 
-        <div class="category-container">
+        <img src="images/hero.png" alt="">
 
-            <div class="category-card">
-                <div class="food-icon">🍕</div>
-                <h2>Pizza</h2>
-                <p>Cheesy and delicious pizzas</p>
-            </div>
+        <h2>Hungry Now? We’ve Got You.</h2>
 
-            <div class="category-card">
-                <div class="food-icon">🍔</div>
-                <h2>Burger</h2>
-                <p>Juicy burgers with tasty fillings</p>
-            </div>
+        <h1>
+            Choose your favorites. Order with ease. Enjoy every bite.
+        </h1>
 
-            <div class="category-card">
-                <div class="food-icon">🍛</div>
-                <h2>Biriyani</h2>
-                <p>Flavorful and aromatic biriyani</p>
-            </div>
+        <button type="button" class="order">
+            Order now
+        </button>
 
-            <div class="category-card">
-                <div class="food-icon">🍗</div>
-                <h2>Chicken</h2>
-                <p>Delicious chicken dishes</p>
-            </div>
+        <button type="button" class="explore">
+            Explore Menu
+        </button>
 
-            <div class="category-card">
-                <div class="food-icon">🍰</div>
-                <h2>Desserts</h2>
-                <p>Sweet treats for every mood</p>
-            </div>
-
-            <div class="category-card">
-                <div class="food-icon">🥤</div>
-                <h2>Drinks</h2>
-                <p>Refreshing drinks and beverages</p>
-            </div>
-
-        </div>
     </section>
 
+    <!-- Food Categories Section -->
 
-    
+<section class="categories">
 
-    </div>
-
-    <!-- Right Image -->
-    <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=90" alt="Delicious Food">
-    </div>
-
-</section>
-
-
-
-    <input type="checkbox" id="menu-toggle">
-
-    <label for="menu-toggle">☰</label>
-
-    <div class="mobile-menu">
-
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">Orders</a>
-        <a href="#">🛒 Cart</a>
-
-        <a href="#" class="mobile-order">
-            Order Now
-        </a>
-
-    </div>
-
-</div>
-    </nav>
-   <div class="hero">
-    <img src="images\hero.png" alt="">
-    <h2>Hungry Now? We’ve Got You.</h2>
-    <h1>Choose your favorites. Order with ease. Enjoy every bite.</h1>
-    <button href="orders.html" class="order">Order now</button>
-    <button href="menu.html"  class="explore">Explore Menu</button>
-   </div>
-   <!-- =========================
-   MENU CATEGORIES SECTION
-<section class="menu-categories">
-    <div class="section-title">
-        <span class="subtitle">EXPLORE OUR MENU</span>
+    <div class="section-heading">
+        <span>Explore Our Menu</span>
         <h2>What are you craving?</h2>
-        <p>Choose from our delicious selection of food categories.</p>
+        <p>
+            Choose from our delicious selection of food categories.
+        </p>
     </div>
+
 
     <div class="category-grid">
-        <!-- Card 1: Pizza -->
+
+        <!-- Pizza -->
         <div class="category-card">
-            <div class="icon-circle">🍕</div>
+            <div class="category-icon">
+                🍕
+            </div>
+
             <h3>Pizza</h3>
-            <p>Cheesy and delicious pizzas</p>
+
+            <p>
+                Cheesy and delicious pizzas
+            </p>
         </div>
 
-        <!-- Card 2: Burger -->
+
+        <!-- Burger -->
         <div class="category-card">
-            <div class="icon-circle">🍔</div>
+            <div class="category-icon">
+                🍔
+            </div>
+
             <h3>Burger</h3>
-            <p>Juicy burgers packed with flavour</p>
+
+            <p>
+                Juicy burgers packed with flavour
+            </p>
         </div>
 
-        <!-- Card 3: Biriyani -->
+
+        <!-- Biriyani -->
         <div class="category-card">
-            <div class="icon-circle">🍛</div>
+            <div class="category-icon">
+                🍛
+            </div>
+
             <h3>Biriyani</h3>
-            <p>Aromatic and flavorful biriyani</p>
+
+            <p>
+                Aromatic and flavorful biriyani
+            </p>
         </div>
 
-        <!-- Card 4: Chicken -->
+
+        <!-- Chicken -->
         <div class="category-card">
-            <div class="icon-circle">🍗</div>
+            <div class="category-icon">
+                🍗
+            </div>
+
             <h3>Chicken</h3>
-            <p>Delicious crispy chicken dishes</p>
+
+            <p>
+                Delicious crispy chicken dishes
+            </p>
         </div>
 
-        <!-- Card 5: Desserts -->
+
+        <!-- Desserts -->
         <div class="category-card">
-            <div class="icon-circle">🍰</div>
+            <div class="category-icon">
+                🍰
+            </div>
+
             <h3>Desserts</h3>
-            <p>Sweet treats for every mood</p>
+
+            <p>
+                Sweet treats for every mood
+            </p>
         </div>
 
-        <!-- Card 6: Drinks -->
+
+        <!-- Drinks -->
         <div class="category-card">
-            <div class="icon-circle">🥤</div>
+            <div class="category-icon">
+                🥤
+            </div>
+
             <h3>Drinks</h3>
-            <p>Refreshing drinks and beverages</p>
+
+            <p>
+                Refreshing drinks and beverages
+            </p>
         </div>
+
     </div>
+
 </section>
+
 </body>
 </html>
-
-
-
-
-
-
