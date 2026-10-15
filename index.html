@@ -23,35 +23,33 @@
 
 <body>
 
+    <!-- =========================
+         NAVBAR
+    ========================= -->
+
     <nav class="navbar">
 
-        <!-- Logo -->
         <div class="logo">
             🍜 OISHII
         </div>
 
-        <!-- Desktop Navigation -->
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Orders</a></li>
         </ul>
 
-        <!-- Desktop Right -->
         <div class="nav-right">
 
-            <!-- Cart -->
             <a href="#" class="cart">
                 🛒 Cart
                 <span class="cart-count">0</span>
             </a>
 
-            <!-- Order Button -->
             <a href="#" class="order-btn">Order Now</a>
 
         </div>
 
-        <!-- Mobile Menu -->
         <div class="bar">
 
             <input type="checkbox" id="menu-toggle">
@@ -76,10 +74,13 @@
     </nav>
 
 
-    <!-- Hero Section -->
+    <!-- =========================
+         HERO
+    ========================= -->
+
     <section class="hero">
 
-        <img src="images/hero.png" alt="">
+        <img src="images/hero2.png" alt="Food">
 
         <h2>Hungry Now? We’ve Got You.</h2>
 
@@ -97,107 +98,589 @@
 
     </section>
 
-    <!-- Food Categories Section -->
 
-<section class="categories">
+    <!-- =========================
+         FOOD CATEGORIES
+    ========================= -->
 
-    <div class="section-heading">
-        <span>Explore Our Menu</span>
-        <h2>What are you craving?</h2>
-        <p>
-            Choose from our delicious selection of food categories.
-        </p>
-    </div>
+    <section class="categories">
 
+        <div class="section-heading">
 
-    <div class="category-grid">
+            <span>Explore Our Menu</span>
 
-        <!-- Pizza -->
-        <div class="category-card">
-            <div class="category-icon">
-                🍕
-            </div>
-
-            <h3>Pizza</h3>
+            <h2>What are you craving?</h2>
 
             <p>
-                Cheesy and delicious pizzas
+                Choose from our delicious selection of food categories.
             </p>
+
         </div>
 
 
-        <!-- Burger -->
-        <div class="category-card">
-            <div class="category-icon">
-                🍔
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍕
+                </div>
+
+                <h3>Pizza</h3>
+
+                <p>
+                    Cheesy and delicious pizzas
+                </p>
+
             </div>
 
-            <h3>Burger</h3>
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍔
+                </div>
+
+                <h3>Burger</h3>
+
+                <p>
+                    Juicy burgers packed with flavour
+                </p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍛
+                </div>
+
+                <h3>Biriyani</h3>
+
+                <p>
+                    Aromatic and flavorful biriyani
+                </p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍗
+                </div>
+
+                <h3>Chicken</h3>
+
+                <p>
+                    Delicious crispy chicken dishes
+                </p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🍰
+                </div>
+
+                <h3>Desserts</h3>
+
+                <p>
+                    Sweet treats for every mood
+                </p>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="category-icon">
+                    🥤
+                </div>
+
+                <h3>Drinks</h3>
+
+                <p>
+                    Refreshing drinks and beverages
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOD MENU
+    ========================= -->
+
+    <section class="food-menu">
+
+        <div class="section-heading">
+
+            <span>Our Menu</span>
+
+            <h2>Popular Dishes</h2>
 
             <p>
-                Juicy burgers packed with flavour
+                Freshly prepared favorites made specially for you.
             </p>
+
         </div>
 
 
-        <!-- Biriyani -->
-        <div class="category-card">
-            <div class="category-icon">
-                🍛
+        <div class="food-grid">
+
+
+            <!-- 1. Chicken Biriyani -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img src="images/chicken_biryani(1).png" alt="Chicken Biriyani">
+
+                    <span class="food-badge">
+                        Popular
+                    </span>
+
+                </div>
+
+
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Biriyani
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.8
+                        </span>
+
+                    </div>
+
+                    <h3>Chicken Biriyani</h3>
+
+                    <p class="food-description">
+                        Fragrant basmati rice cooked with tender chicken,
+                        herbs and aromatic spices.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹180
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <h3>Biriyani</h3>
 
-            <p>
-                Aromatic and flavorful biriyani
-            </p>
-        </div>
+            <!-- 2. Classic Burger -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"
+                        alt="Classic Cheese Burger"
+                    >
+
+                    <span class="food-badge">
+                        Bestseller
+                    </span>
+
+                </div>
 
 
-        <!-- Chicken -->
-        <div class="category-card">
-            <div class="category-icon">
-                🍗
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Burger
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.7
+                        </span>
+
+                    </div>
+
+                    <h3>Classic Cheese Burger</h3>
+
+                    <p class="food-description">
+                        Juicy grilled patty with melted cheese,
+                        fresh lettuce and special sauce.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹160
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <h3>Chicken</h3>
 
-            <p>
-                Delicious crispy chicken dishes
-            </p>
-        </div>
+            <!-- 3. Margherita Pizza -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80"
+                        alt="Margherita Pizza"
+                    >
+
+                </div>
 
 
-        <!-- Desserts -->
-        <div class="category-card">
-            <div class="category-icon">
-                🍰
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Pizza
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.6
+                        </span>
+
+                    </div>
+
+                    <h3>Margherita Pizza</h3>
+
+                    <p class="food-description">
+                        Classic Italian pizza with tomato sauce,
+                        mozzarella and fresh basil.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹220
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <h3>Desserts</h3>
 
-            <p>
-                Sweet treats for every mood
-            </p>
-        </div>
+            <!-- 4. Crispy Chicken -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=900&q=80"
+                        alt="Crispy Fried Chicken"
+                    >
+
+                    <span class="food-badge">
+                        Hot
+                    </span>
+
+                </div>
 
 
-        <!-- Drinks -->
-        <div class="category-card">
-            <div class="category-icon">
-                🥤
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Chicken
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.9
+                        </span>
+
+                    </div>
+
+                    <h3>Crispy Fried Chicken</h3>
+
+                    <p class="food-description">
+                        Golden crispy chicken pieces seasoned with
+                        our signature spices.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹210
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <h3>Drinks</h3>
 
-            <p>
-                Refreshing drinks and beverages
-            </p>
+            <!-- 5. French Fries -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80"
+                        alt="French Fries"
+                    >
+
+                </div>
+
+
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Snacks
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.5
+                        </span>
+
+                    </div>
+
+                    <h3>French Fries</h3>
+
+                    <p class="food-description">
+                        Crispy golden fries seasoned with our
+                        special house spices.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹90
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 6. Chocolate Cake -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80"
+                        alt="Chocolate Cake"
+                    >
+
+                    <span class="food-badge">
+                        Sweet
+                    </span>
+
+                </div>
+
+
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Dessert
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.9
+                        </span>
+
+                    </div>
+
+                    <h3>Chocolate Cake</h3>
+
+                    <p class="food-description">
+                        Soft chocolate sponge layered with rich
+                        chocolate cream.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹140
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 7. Ice Cream -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80"
+                        alt="Ice Cream"
+                    >
+
+                </div>
+
+
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Dessert
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.6
+                        </span>
+
+                    </div>
+
+                    <h3>Vanilla Ice Cream</h3>
+
+                    <p class="food-description">
+                        Creamy vanilla ice cream served with
+                        delicious sweet toppings.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹100
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 8. Cold Coffee -->
+
+            <div class="food-card">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80"
+                        alt="Cold Coffee"
+                    >
+
+                    <span class="food-badge">
+                        Fresh
+                    </span>
+
+                </div>
+
+
+                <div class="food-info">
+
+                    <div class="food-top">
+
+                        <span class="food-category">
+                            Drinks
+                        </span>
+
+                        <span class="food-rating">
+                            ⭐ 4.8
+                        </span>
+
+                    </div>
+
+                    <h3>Cold Coffee</h3>
+
+                    <p class="food-description">
+                        Smooth chilled coffee blended with milk
+                        and creamy foam.
+                    </p>
+
+
+                    <div class="food-bottom">
+
+                        <span class="food-price">
+                            ₹120
+                        </span>
+
+                        <button class="add-cart">
+                            + Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </div>
 
-    </div>
+    </section>
 
-</section>
 
 </body>
 </html>
